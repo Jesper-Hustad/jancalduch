@@ -1,18 +1,14 @@
 /* create nice default css */
 
 body {
-    background-color: #fff;
+    background-image: linear-gradient(to bottom right, beige, lightblue);
     color: #000;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
     /* margin: 20px; */
     margin: auto;
-    padding: 40px;
-}
-
-.content {
-    margin-bottom: 20px;
+    width: 47rem;
 }
 
 h1,
@@ -29,10 +25,15 @@ h6 {
 
 h1 {
     font-size: 36px;
+    margin-bottom: 5px;
+    font-weight: 700;
 }
 
 h2 {
     font-size: 30px;
+    margin-bottom: 5px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
 }
 
 h3 {
